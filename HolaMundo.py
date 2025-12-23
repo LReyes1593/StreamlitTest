@@ -4,9 +4,10 @@ import streamlit as st
 from PIL import Image
 import altair as alt
 
-logo = Image.open("LogoPANAM.png")
+logo = Image.open("LogoPANAM.jpg")
 
 st.title("Hola Streamlit")
+
 
 
 
