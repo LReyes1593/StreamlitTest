@@ -4,9 +4,10 @@ from PIL import Image
 import altair as alt
 
 logo = Image.open("LogoPANAM.jpg")
-logo.show
+Image.show
 
 st.title("Hola Streamlit")
+
 
 
 
