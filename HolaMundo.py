@@ -3,10 +3,11 @@ import pandas as pd
 from PIL import Image
 import altair as alt
 
-Image = Image.open("LogoPANAM.jpg")
-Image.show
+logo = Image.open("LogoPANAM.jpg")
+logo.show
 
 st.title("Hola Streamlit")
+
 
 
 
